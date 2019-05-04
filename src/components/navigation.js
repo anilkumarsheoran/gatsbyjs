@@ -23,7 +23,7 @@ const navigation  = ({location}) => (
     `}
     render = {data => (
         <ul className="navigation">
-          {data.allContentfulNavigation.edges[0].node.navigationItem && data.allContentfulNavigation.edges[0].node.navigationItem.map(nav => (<li className={`navigation_list ${location.pathname === nav.slug ? 'navigation_list--active': ''}`}>
+          {data.allContentfulNavigation.edges[0].node.navigationItem && data.allContentfulNavigation.edges[0].node.navigationItem.map(nav => (<li className={`navigation_list ${location && location.pathname === nav.slug ? 'navigation_list--active': ''}`}>
             <Link className="navigation_link" to={nav.slug} >{nav.linkTitle}</Link>
            </li>))}
         </ul>
