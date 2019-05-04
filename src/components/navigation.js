@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 import "./navigation.css"
 import { classNames } from 'classnames'
