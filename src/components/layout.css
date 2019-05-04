@@ -4,10 +4,23 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #383838;
+  background-color: #d9d9d9;
+  position: relative;
+  min-height: 100%;
+  top: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.layout {
+  width: 1020px;
+  margin: 0 auto;
+  background: white;
+}
+
 article,
 aside,
 details,
