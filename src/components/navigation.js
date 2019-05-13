@@ -3,7 +3,6 @@ import { StaticQuery, graphql, Link } from "gatsby"
 import "./navigation.css"
 import { classNames } from 'classnames'
 
-
 const navigation  = ({location}) => (
     // const linkClassName = classNames("navigation_link",{"active":location.pathname === nav.slug})
     <StaticQuery
